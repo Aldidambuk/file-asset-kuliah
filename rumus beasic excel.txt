@@ -1,0 +1,51 @@
+1.=sum( :untuk menjumblahkan data 
+	>jika sudah di jumblahkan bisa langsung block saja kolom 
+	 yang sudah di jumblahkan oleh =sum( nanti akan otomatis di jumblahkan juga
+2.=average( :untuk mencari rata-rata dari data yang di cari 
+	    > sama juga tinggal derek kolomnya ke bawah nanti otomatis akan di generate
+	    > rata rata dari data tersebut
+3.>=count( :untuk menghitung banyaknya data
+	   >ini untuk menghitung berdasarkan angka (contoh:id,nik,kontak seseorang)
+  >=counta( :sama untuk menghitung banyaknya data juga
+	   >bedanya ini untuk menghitung berdasarkan value(contoh:nama,alamat,status seseorang) 
+4.=max( :untuk mencari nilai tertinggi (maximum)
+	>caranya select data yang akan di cari nilai tertingginya (maximum)
+5.=min( :untuk mencari nilai terkecil(minimum) atau kebalikan dari (maximum)
+	>caranya sama saja select data yang mau dicari data minimum nya
+6.=if( :untuk menguji sebuah pernyataan (contoh:true or false,benar atau salah,lulus atu tidak lulu)
+	>contoh kasus lulus dan tidak lulu di sebuah kampus nilai standar kelulusan untuk sebuah mata kuliah
+	>itu 75 di bawah itu berarti tidak lulus(mengulang mata kuliah) klik kolom atau baris yang inign di 
+	>uji pernyataanya misalnya kolom G baris 2
+	>rumusnya: =if(G2>=75,"lulus","tidak lulus")
+	>cara bacanya: jika G2 lebih dari sama dengan 75 maka lulu jika di bawah/selain itu tidak lulus
+7.=countif( :untuk menghitung banyaknya data yang telah di uji contohnya yang tadi menghitung banyaknya
+	>mahasiswa yang lulus ataupun tidak lulus contoh untuk mencari yang lulus
+	>caranya select data yang akan di hitung misalnya satu kolom dari H2 sampe H11 gitu
+	>rumusnya: =countif(h2:H11,"lulus")
+8.=sumif( :menghitung jumlah total nilai dari mahasiswa yang statusnya lulus atau tidak lulus
+	> caranya select colom dari data lulus atau tidak lulu,dan data dari total nilai mahasiswa
+	>misalnya mencari total nilai mahasiswa yang lulus
+	>rumusnya: =sumif(H2:H11,"lulus",F2:F11)
+9.=averageif( : untuk menghitung nilai rata rata dari hasil pengujian lulus dan tidak lulus
+	>misalnya yang lulu select colom data yang lulus dan tidak lulus dan 
+	>kolom dari data rata rata nilai mahasiswa
+	>rumusnya: =averageif(H2:H11,"lulus",G2:G11)
+10.=concatenate( :untuk menggabungkan beberapa kolom menjadi satu text sekaligus
+	>contoh rumus: =concatenate(A3,"",B3"",C3)
+	>untuk petik kosong itu mengartikan spasi antara kolom data yang di select tersebut
+11.=lower( :untuk mengubah huruf besar menjadi huruf kecil
+12.=upper( :untuk mengubah huruf kecil menjadi huruf besar
+13.=proper( :untuk mengubah huruf awalan menjadi huruf besar
+14.=vlookup( :untuk mencari data yang bentuk data atau tabelnya itu vertikal
+	>berikut untuk contoh kasus:
+	-->Tabel pertama adalah tabel yang perlu kamu lengkapi, 
+	   termasuk kolom "Nama Customer", "Domisili", dan "Lama Pengiriman".
+	-->Tabel kedua adalah referensi yang berisi informasi 
+	   "No. Pemesanan", "Nama Customer", "Jenis Kelamin", dan "Domisili"
+	>cara penggunaan Tempatkan kursor di sel pertama di bawah "Nama Customer" pada tabel pertama 
+	>(misalnya, sel C2) masukan rumus =VLOOKUP(B2, B2:E11, 2, FALSE)
+	>untuk domisili: =VLOOKUP(B3, B3:E12, 2, FALSE)
+15.=hlookup( :untuk mencari data yang bentuk data atau tabelnya itu horizontal
+	>
+	>
+	>

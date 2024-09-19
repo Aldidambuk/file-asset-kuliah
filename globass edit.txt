@@ -1,0 +1,75 @@
+https://cdn.wallpapersafari.com/86/95/w0bj2q.jpg
+https://cdn.wallpapersafari.com/61/45/aHbOMz.jpg
+https://wallpapercave.com/wp/wp2944368.jpg
+https://4.bp.blogspot.com/-oZvTB0xJnGA/UmBqsWn0WXI/AAAAAAAAALE/aT8E_VdsTkM/s400/Gambar+Neraka+Jahanam.jpg
+https://tse2.mm.bing.net/th?id=OIP.0UyAAgwpQ_KWgpk56Ac_WgHaD8&pid=Api&P=0&h=180
+https://tse2.mm.bing.net/th?id=OIP.0UyAAgwpQ_KWgpk56Ac_WgHaD8&pid=Api&P=0&h=360
+http://getwallpapers.com/wallpaper/full/9/9/b/1118561-gorgerous-future-city-wallpaper-1920x1080-hd-for-mobile.jpg
+
+
+
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+
+
+
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 75, 0, 130; /* Dark purple */
+  --background-end-rgb: 139, 69, 19;  /* Brown */
+}
+
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;  /* Warna awal latar belakang diatur menjadi hitam */
+    --background-end-rgb: 0, 0, 0;    /* Warna akhir latar belakang diatur menjadi hitam */
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+  /* background:"https://cdn.wallpapersafari.com/86/95/w0bj2q.jpg"  */
+}
+
+
+
+https://github.com/Aldidambuk
+
+
+
+
+
+
+
+background-color: white;
+    color: black;
+    text-decoration: none;
+    font-size: 30px;
+    width: 700px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 100px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);

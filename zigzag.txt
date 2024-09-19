@@ -1,0 +1,146 @@
+#include <GL/glut.h>
+
+
+void drawZigzag() {
+    glBegin(GL_LINE_STRIP);
+    glColor3f(0.0f, 1.0f, 0.0f);
+    glVertex2f(0.5f, -0.7f);
+    glVertex2f(-0.3f, -0.5f);
+    glColor3f(0.0f, 1.0f, 1.0f);
+    glVertex2f(0.3f, -0.3f);
+    glColor3f(1.0f, 0.5f, 0.0f);
+    glVertex2f(-0.7f, -0.1f);
+    glVertex2f(0.0f, 0.1f);
+    glColor3f(1.0f, 0.0f, 0.0f);
+    glVertex2f(-0.9f, 0.3f);
+    glEnd();
+}
+
+void drawVerticalLine() {
+    glBegin(GL_LINES);
+    glColor3f(1.0f, 0.5f, 0.0f);
+    glVertex2f(0.0f, -1.0f);
+    glColor3f(1.0f, 0.0f, 0.0f);
+    glVertex2f(0.0f, 1.0f);
+    glColor3f(0.0f, 1.0f, 1.0f);
+    glEnd();
+}
+
+void drawTriangle() {
+    glBegin(GL_TRIANGLES);
+    glColor3f(0.0f, 1.0f, 0.0f);
+    glVertex2f(-0.7f, -0.7f);
+    glColor3f(1.0f, 0.5f, 0.0f);
+    glVertex2f(0.7f, -0.7f);
+    glColor3f(1.0f, 0.0f, 0.0f);
+    glVertex2f(0.0f, 0.7f);
+    glEnd();
+}
+
+void display() {
+    glClear(GL_COLOR_BUFFER_BIT);
+
+    glViewport(200, 200, 200, 200);
+    glPushMatrix();
+    glPopMatrix();
+    drawZigzag();
+
+    glViewport(0, 200, 200, 200);
+    glPushMatrix();
+    glPopMatrix();
+    drawTriangle();
+
+    glViewport(200, 200, 0, 200);
+    glPushMatrix();
+    glPopMatrix();
+    drawVerticalLine();
+
+    glFlush();
+}
+
+
+int main(int argc, char** argv) {
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_SINGLE | GLUT_RGB);
+    glutInitWindowSize(500, 500);
+    glutInitWindowPosition(100, 100);
+    glutCreateWindow("Zigzag and Triangle Example");
+    glutDisplayFunc(display);
+    glutMainLoop();
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ini di bawah untuk persegi
+
+
+#include <GL/glut.h>
+
+void drawWireframeCube() {
+    glBegin(GL_LINES);
+
+    // Front face
+    glVertex3f(-1.0f, -1.0f,  1.0f); glVertex3f( 1.0f, -1.0f,  1.0f); // Bottom edge
+    glVertex3f( 1.0f, -1.0f,  1.0f); glVertex3f( 1.0f,  1.0f,  1.0f); // Right edge
+    glVertex3f( 1.0f,  1.0f,  1.0f); glVertex3f(-1.0f,  1.0f,  1.0f); // Top edge
+    glVertex3f(-1.0f,  1.0f,  1.0f); glVertex3f(-1.0f, -1.0f,  1.0f); // Left edge
+
+    // Back face
+    glVertex3f(-1.0f, -1.0f, -1.0f); glVertex3f( 1.0f, -1.0f, -1.0f); // Bottom edge
+    glVertex3f( 1.0f, -1.0f, -1.0f); glVertex3f( 1.0f,  1.0f, -1.0f); // Right edge
+    glVertex3f( 1.0f,  1.0f, -1.0f); glVertex3f(-1.0f,  1.0f, -1.0f); // Top edge
+    glVertex3f(-1.0f,  1.0f, -1.0f); glVertex3f(-1.0f, -1.0f, -1.0f); // Left edge
+
+    // Connect front and back faces
+    glVertex3f(-1.0f, -1.0f,  1.0f); glVertex3f(-1.0f, -1.0f, -1.0f); // Bottom-left edge
+    glVertex3f( 1.0f, -1.0f,  1.0f); glVertex3f( 1.0f, -1.0f, -1.0f); // Bottom-right edge
+    glVertex3f( 1.0f,  1.0f,  1.0f); glVertex3f( 1.0f,  1.0f, -1.0f); // Top-right edge
+    glVertex3f(-1.0f,  1.0f,  1.0f); glVertex3f(-1.0f,  1.0f, -1.0f); // Top-left edge
+
+    glEnd();
+}
+
+void display() {
+    glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+    glLoadIdentity();
+    gluLookAt(3.0, 3.0, 3.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
+
+    drawWireframeCube();
+
+    glutSwapBuffers();
+}
+
+int main(int argc, char** argv) {
+    glutInit(&argc, argv);
+    glutInitDisplayMode(GLUT_DOUBLE | GLUT_RGB | GLUT_DEPTH);
+    glutInitWindowSize(800, 600);
+    glutCreateWindow("Wireframe Cube");
+
+    glEnable(GL_DEPTH_TEST);
+
+    glutDisplayFunc(display);
+
+    glutMainLoop();
+    return 0;
+}
+
+

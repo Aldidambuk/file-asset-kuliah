@@ -1,0 +1,18 @@
+1.https://animate.style/
+2.unsplash (untuk web download foto atau link foto)
+3.nodemon (unutk auto running untuk node saat file di ganti atau di tambahkan)
+4.flowbite tailwinstyle
+5.hyperUI tailwinstyle
+6.codepen (menyimpan online code)
+7.replit (UNUTK NGEDEPLOY SEBUAT WEB ATAU APK YANG ANDA BUAT)
+8.bootstrap style
+9.font awesome cdn/font awesome
+10.tailwin ui
+11.pexels : (web download gambar juga)
+12.https://getbootstrap.com/docs/5.0/getting-started/introduction/
+13.squoosh (website mengubah resize image/kompresi image)
+14.getwaves.io (style gelombang untuk garis batas)
+15.@keyframes (untuk style animasi di css(ini bukan link web))
+16.daisy ui (komponen librari untuk  tailwind css)
+17.onsen ui ()
+18.https://expressjs.com/en/starter/installing.html  (panduan instalasi modul express)

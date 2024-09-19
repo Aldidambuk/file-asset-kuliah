@@ -1,0 +1,11 @@
+Manteman, tadi miss Tifany info kalau UAS LAB Multimedia soalnya adalah:
+1. Buat Line(garis) atau ZigZag 
+2. ⁠Buat Segitiga
+
+Semua soal diatas dgn COBL diperlihatkan codingnya dan jika OK, lanjutkan dgn ditulis di KERTAS dan dikumpulkan ke miss Tifany dan lngsung blh pulang.
+
+
+uas lab multi media
+1.membuat disain objek dari line mau garis,zigzap apapun itu
+2.bikin disain segi tiga tree anggel
+3.di tuliskan di kertas untuk kodenya

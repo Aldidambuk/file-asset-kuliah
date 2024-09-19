@@ -1,0 +1,15 @@
+1 bacbone membantu percepatan pengiriman data(mentransfer data dengan cepat),backbone ini lebih mengarah ke
+sebagai perangkat.
+2.dengan menggunakan backbone pengunaan jaringan lebih maksimal,jangkauan jaringan begitu luas,mempercepat tranfer data
+dengan kecepatan akses tinggi contoh video, audio
+3.backbone mentransfer data hingga sampai 100mb/sekon,backbonemenggunakan teknnik topologi ring
+4.mencegah terjadinya bottleneck (keadaan di mana terjadi kepadatan atau beban user untuk menakses data dalam jaringan)
+*materi untuk lab
+1.mendemonstrasikan 2 aplikasi mikrotik sama windows 7
+2.melakukan management hotspot
+3.langsung konek ke wireless
+4.windows 7 di seting menjadi clien
+5.windows 7 login terlebih dahulu 
+6.user profile
+7.ethernya di bedain client,server,pimpinan, atau apa aja
+8.

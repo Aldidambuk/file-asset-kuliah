@@ -1,0 +1,81 @@
+*msword:aldy_123
+*langkah langkah clone repository
+1.open github
+2.copy code URL repositori
+3.masuk ke folder file project kita
+4.klik kanan pada file 
+5.klik open git bash here
+6.git clone "masukan URL"
+
+*langkah langkah ngepush ke repo yang sudah di clone
+1.git init
+2.git add .
+3.git commit -m "komentar commit"
+4.git config --global user.email "ypur email"
+5.git config --global user.name "Your Name"
+6.git push origin main
+
+*nodejs installer
+1.npm init
+2.npm install path
+3.npm i express  
+4.npm i body-parser
+5.npm i mysql
+6.npm i cors
+7.npm i multer
+
+*reactjs installer
+1.npm install -g npm
+2.npx create-next-app@latest
+3.cd my-app
+4.npm run build
+5.npm run dev
+6.npm install react-bootstrap bootstrap
+7.npm outdated (periksa versi package)
+8.npm i axios
+
+
+*teknologi
+1.elastic.com
+2.machine leraning
+3.AI
+
+*error handle
+1.periksa image, lebar sama tingginya di masukin
+
+*konsep grid
+1.container
+2.row
+3.colom
+
+*mengintegrasi
+
+*persiapan uas 
+1.siapkan database
+2.pelajari dan mengingat semua isian dari database
+3.perhatikan setiap nama dalam tabel ataupun nama database
+4.mengingat semua method dari kodingan ataupun dalam apk posmant
+5.baca optimize queri
+6.mgejelasin isi untuk import/eksport dari codingan
+7.asinkronus memanggil api tanda jeda atau berkedip
+8.jeason kurung kurawal dan array itu kurung brackets
+9.bootstrap form
+10.bg bootstrap ( warna untuk bacground)
+11.perhatikan input tipe data (value,onchange)
+12.figma.com
+
+*kisi kis UAS
+1.database pastikan nyala,cara bukanya di xammp-mysql-admin
+2.backendnya belajar nodejs
+-hafal semua jenis method nya (post,get,delet dan kawan kawanya)
+-pelajari logic
+-pelajari security
+3.postman->post,get,put,delet->di bodynya kita pake peckage jeason
+4.reactjs component
+-form
+-list/card
+-bootstrap
+5.harus punya akun github
+
+*pemahaman
+=>mysql->nodejs->axios->reactjs->delet->axios->express->nodejs
