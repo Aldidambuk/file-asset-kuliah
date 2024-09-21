@@ -16,13 +16,31 @@
 6.git push origin main
 
 *nodejs installer
-1.npm init
-2.npm install path
-3.npm i express  
-4.npm i body-parser
-5.npm i mysql
-6.npm i cors
-7.npm i multer
+1.npm init: Ini adalah langkah pertama untuk memulai proyek Node.js 
+	>dan membuat file package.json yang berfungsi untuk menyimpan informasi proyek kita, 
+	>termasuk semua dependencies (modul-modul yang kamu install) 
+	>dan skrip yang kamu gunakan untuk menjalankan proyek.
+2.npm install path:Modul ini berguna untuk mengelola dan memanipulasi path file dan direktori di sistem file kamu
+3.npm i express:Express salah satu framework Node.js,
+	>yang digunakan untuk membangun aplikasi web dan API dengan lebih mudah dan terstruktur.
+	>Membuat routing (misalnya, menangani request GET, POST, PUT, DELETE).
+	>Mengirim respon dari server ke client.
+	>Menghubungkan middleware untuk menangani request atau respon.  
+4.npm i body-parser:mengirim data dari form HTML dengan method POST, 
+	>body-parser akan membantu mengambil data tersebut dari request body unutk kita gunakan di server.
+	>Singkatnya: body-parser membantu server membaca data yang dikirim oleh client melalui request.
+5.npm i mysql:mysql digunakan untuk menghubungkan aplikasi Node.js dengan database MySQL
+	>memungkinkan aplikasi Node.js kamu berkomunikasi dengan database MySQL untuk membaca dan menulis data
+	>misalnya kamu bisa menjalankan query SQL dari server Node.js seperti INSERT, SELECT, UPDATE, DELETE,dll.
+6.npm i cors:Contohnya, misal aplikasi front-end kamu di http://localhost:3000, 
+	>dan server API kamu ada di http://localhost:5000, 
+	>secara default browser akan memblokir request dari port server yang berbeda. 
+	>Tapi dengan cors,client bisa dapat izin untuk nge-hit ke API.
+7.npm i multer:multer adalah sebuah paket (module) di Node.js yang membantu kamu ngurus upload file ke server
+	>multer dipakai buat ngambil file dari form upload dan nyimpen file itu di server.
+	>Dia juga bisa ngatur di mana file disimpan dan namanya gimana.
+	>Biasanya dipakai pas kita butuh nerima file dari user (kayak upload foto profil, dokumen, dll.).
+
 
 *reactjs installer
 1.npm install -g npm

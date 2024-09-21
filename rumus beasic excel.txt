@@ -7,7 +7,7 @@
 3.>=count( :untuk menghitung banyaknya data
 	   >ini untuk menghitung berdasarkan angka (contoh:id,nik,kontak seseorang)
   >=counta( :sama untuk menghitung banyaknya data juga
-	   >bedanya ini untuk menghitung berdasarkan value(contoh:nama,alamat,status seseorang) 
+	   >bedanya ini untuk menghitung berdasarkan nama(contoh:nama,alamat,status seseorang) 
 4.=max( :untuk mencari nilai tertinggi (maximum)
 	>caranya select data yang akan di cari nilai tertingginya (maximum)
 5.=min( :untuk mencari nilai terkecil(minimum) atau kebalikan dari (maximum)
